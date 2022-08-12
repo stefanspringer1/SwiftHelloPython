@@ -43,8 +43,13 @@ let pythonScriptGetter = PythonScriptGetter()
 
 func work(on text: String, pythonScripts: String, pythonModule: String) async throws -> String {
     let script = try await pythonScriptGetter.get(pythonScripts: pythonScripts, pythonModule: pythonModule)
-    let changedText = String(script.replaceAllAs(text))!
-    return changedText
+    if let changedText = String(script.replaceAllAs(text)) {
+        return changedText
+    }
+    else {
+        let errorMessage = "python function \"replaceAllAs\" did not retunr a value"
+        throw ErrorWithDescription(errorMessage)
+    }
 }
 
 @main
