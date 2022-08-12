@@ -1,6 +1,6 @@
 # SwiftHelloPython
 
-Example for using PythonKit
+Example for using [PythonKit](https://github.com/pvieito/PythonKit) for [Swift](https://www.swift.org).
 
 Arguments: \<path to directory with Python scripts> \<base name of Python script>.
 
