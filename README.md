@@ -11,6 +11,8 @@ def replaceAllAs(text):
   return text.replace("a", "x")
 ```
 
+## Using PythonKit on Linux
+
 To use PythonKit on Linux, you have to set the environment variable `PYTHON_LIBRARY`, e.g.:
 
 ```bash
