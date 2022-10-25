@@ -23,7 +23,7 @@ Import `PythonKit`:
 import PythonKit
 ```
 
-Import the Python script, using `pythonScripts` as the path to directory containing your Python script, and `pythonModule` as the (base) name of your Python script:
+Import the Python script, using `pythonScripts` as the path to directory containing your Python script, and `pythonModule` as the base name of your Python script:
 
 ```Swift
 let sys = Python.import("sys")
