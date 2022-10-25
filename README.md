@@ -11,6 +11,20 @@ def replaceAllAs(text):
   return text.replace("a", "x")
 ```
 
+## Crucial calls
+
+Import the Python script:
+
+```Swift
+let script = try Python.attemptImport(pythonModule)
+```
+
+Call a function of the Python script:
+
+```Swift
+let changedText = String(script.replaceAllAs(text))
+```
+
 ## Using PythonKit on Linux
 
 To use PythonKit on Linux, you have to set the environment variable `PYTHON_LIBRARY`, e.g.:
