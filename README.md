@@ -15,6 +15,8 @@ def replaceAllAs(text):
 
 As a prerequisite, `PythonKit` has to be added as a dependency of your Swift package, see the `Package.swift` file.
 
+Then, in your Swift program:
+
 Import `PythonKit`:
 
 ```Swift
