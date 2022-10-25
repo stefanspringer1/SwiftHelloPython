@@ -23,11 +23,15 @@ Import `PythonKit`:
 import PythonKit
 ```
 
-Import the Python script:
+Import the Python script, using `pythonScripts` as the path to directory containing your Python script, and `pythonModule` as the (base) name of your Python script:
 
 ```Swift
+let sys = Python.import("sys")
+sys.path.append(pythonScripts)
 let script = try Python.attemptImport(pythonModule)
 ```
+
+(You should do not have to use `let sys = Python.import("sys")` and `sys.path.append(pythonScripts)` if your Python script has been installed in the usual way using the environment variable `PATH`.)
 
 Call a function of the Python script:
 
