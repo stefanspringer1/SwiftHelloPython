@@ -13,6 +13,8 @@ def replaceAllAs(text):
 
 ## Crucial calls
 
+As a prerequisite, `PythonKit` has to be added as a dependency of your Swift package, see the `Package.swift` file.
+
 Import `PythonKit`:
 
 ```Swift
