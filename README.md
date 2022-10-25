@@ -48,3 +48,7 @@ export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3
 ```
 
 Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library.
+
+### References
+
+- https://www.tensorflow.org/swift/tutorials/python_interoperability
