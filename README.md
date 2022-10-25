@@ -31,7 +31,7 @@ sys.path.append(pythonScripts)
 let script = try Python.attemptImport(pythonModule)
 ```
 
-(You should do not have to use `let sys = Python.import("sys")` and `sys.path.append(pythonScripts)` if your Python script has been installed in the usual way with `pip` or `conda`.)
+(You might do not have to use `let sys = Python.import("sys")` and `sys.path.append(pythonScripts)` if your Python script has been installed "in the usual way".)
 
 Call a function of the Python script:
 
