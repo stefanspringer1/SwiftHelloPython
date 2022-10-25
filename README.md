@@ -13,6 +13,12 @@ def replaceAllAs(text):
 
 ## Crucial calls
 
+Import `PythonKit`:
+
+```Swift
+import PythonKit
+```
+
 Import the Python script:
 
 ```Swift
