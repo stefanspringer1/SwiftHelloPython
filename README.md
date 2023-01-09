@@ -64,3 +64,4 @@ Note that CPython has the "global interpreter lock" (GIL), so calling into Pytho
 
 - https://www.tensorflow.org/swift/tutorials/python_interoperability
 - https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/python_interoperability.ipynb
+- https://github.com/pvieito/PythonCodable
