@@ -56,7 +56,7 @@ When using a Python script via PythonKit, Python might run with some "missing" s
 - Set `PYTHONIOENCODING`: on Linux: `export PYTHONIOENCODING=utf-8`
 - add the appropriate argument to some calls, e.g. `open(filepath, 'r', encoding="utf-8")` instead of just `open(filepath, 'r')` 
 
-### References
+## References
 
 - https://www.tensorflow.org/swift/tutorials/python_interoperability
 - https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/python_interoperability.ipynb
