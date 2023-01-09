@@ -56,6 +56,10 @@ When using a Python script via PythonKit, Python might run with some "missing" s
 - set `PYTHONIOENCODING`: on Linux: `export PYTHONIOENCODING=utf-8`,
 - add the appropriate argument to some calls, e.g. `open(filepath, 'r', encoding="utf-8")` instead of just `open(filepath, 'r')`.
 
+## Concurrent calls of Python functions
+
+Note that CPython has the "global interpreter lock" (GIL), so calling into Python scripts concurrently should not work. The GIL [might be removed in future versions of CPython](https://pyfound.blogspot.com/2022/05/the-2022-python-language-summit-python_11.html) (status: end of 2022).
+
 ## References
 
 - https://www.tensorflow.org/swift/tutorials/python_interoperability
