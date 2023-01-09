@@ -68,4 +68,3 @@ Note that CPython has the "global interpreter lock" (GIL), so calling into Pytho
 ## Related projects
 
 - https://github.com/pvieito/PythonCodable
-- 
