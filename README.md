@@ -51,7 +51,7 @@ Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python lib
 
 ## Using UTF-8
 
-When using Python script via PythonKit, Python might run with sone "missing" settings. E.g., when you need to read UTF-8 encoded files, you need to:
+When using a Python script via PythonKit, Python might run with sone "missing" settings. E.g., when you need to read UTF-8 encoded files, you need to:
 
 - Set `PYTHONIOENCODING`: on Linux: `export PYTHONIOENCODING=utf-8`
 - add the appropriate argument to some calls, e.g. `open(filepath, 'r', encoding="utf-8")` instead of just `open(filepath, 'r')` 
