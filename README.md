@@ -41,7 +41,7 @@ let changedText = String(script.replaceAllAs(text))
 
 ## Referencing the Python library
 
-You set the environment variable `PYTHON_LIBRARY` to reference the according Python library file, on Linux 5his could be:
+You set the environment variable `PYTHON_LIBRARY` to reference the according Python library file, on Linux e.g.:
 
 ```bash
 export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
@@ -51,7 +51,7 @@ export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3
 
 You may not need to set this environment variable on macOS.
 
-To use a specific Python environment, reference the Python library inside the environment.
+To use a specific Python environment, reference the Python library file inside the environment.
 
 ## Using UTF-8
 
