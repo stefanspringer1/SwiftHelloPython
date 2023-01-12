@@ -41,7 +41,7 @@ let changedText = String(script.replaceAllAs(text))
 
 ## Referencing the Python library
 
-You set the environment variable `PYTHON_LIBRARY` to reference the according Python library file, on Linux e.g.:
+You set the environment variable `PYTHON_LIBRARY` to reference the according CPython library file, on Linux e.g.:
 
 ```bash
 export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
