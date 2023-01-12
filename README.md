@@ -49,6 +49,10 @@ export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3
 
 Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library.
 
+## Using a Python environment
+
+To use a specific environment, reference the Python library inside the environment via `PYTHON_LIBRARY` as described above.
+
 ## Using UTF-8
 
 When using a Python script via PythonKit, Python might run with some "missing" settings. When you need to read UTF-8 encoded files, you need to:
