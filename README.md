@@ -39,19 +39,19 @@ Call a function of the Python script:
 let changedText = String(script.replaceAllAs(text))
 ```
 
-## Using PythonKit on Linux
+## Referencing the Python library
 
-To use PythonKit on Linux, you have to set the environment variable `PYTHON_LIBRARY`, e.g.:
+You set the environment variable `PYTHON_LIBRARY` to reference the according Python library file, on Linux 5his could be:
 
 ```bash
 export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
 ```
 
-Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library.
+(Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library.)
 
-## Using a Python environment
+You may not need to set this environment variable on macOS.
 
-To use a specific environment, reference the Python library inside the environment via `PYTHON_LIBRARY` as described above.
+To use a specific Python environment, reference the Python library inside the environment.
 
 ## Using UTF-8
 
