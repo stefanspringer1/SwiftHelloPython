@@ -57,7 +57,7 @@ To use a specific Python environment, reference the Python library file inside t
 
 When using a Python script via PythonKit, Python might run with some "missing" settings. When you need to read UTF-8 encoded files, you need to:
 
-- set `PYTHONIOENCODING`: on Linux: `export PYTHONIOENCODING=utf-8`,
+- set `PYTHONIOENCODING`: `export PYTHONIOENCODING=utf-8` on macOS/Linux,
 - add the appropriate argument to some calls, e.g. `open(path, 'r', encoding="utf-8")` instead of just `open(path, 'r')`.
 
 ## Concurrent calls of Python functions
