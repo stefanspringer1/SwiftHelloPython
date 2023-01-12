@@ -47,11 +47,11 @@ You set the environment variable `PYTHON_LIBRARY` to reference the according Pyt
 export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
 ```
 
-(Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library on Linux. On macOS, an according library file has the `dylib` extension.)
+Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library on Linux. On macOS, an according library file has the `dylib` extension.
 
 You may not need to set this environment variable on macOS.
 
-To use a specific Python environment, reference the Python library file inside the environment.
+**To use a specific Python environment**, reference the Python library file inside the environment.
 
 ## Using UTF-8
 
