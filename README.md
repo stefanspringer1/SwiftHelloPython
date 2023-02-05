@@ -49,7 +49,7 @@ export PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3
 
 Use `find /usr/lib -name *libpython*.so` to search for an appropriate Python library on Linux. On macOS, an according library file has the `dylib` extension.
 
-You may not need to set this environment variable on macOS.
+You may not need to set this environment variable on macOS. But you might have to set "Enable Hardened Runtime" to "No" in the macOS settings when using a Python version installed by you.
 
 **To use a specific Python environment**, reference the Python library file inside the environment.
 
